@@ -18,33 +18,15 @@ struct PrimaryHeartPulse: View {
     @State private var redHeartHeight: Double = UIScreen.main.bounds.width/9
     var body: some View {
         VStack {
-            Text("Made by Magesh Sridhar using SwiftUI ❤️")
-                .fontWeight(.medium)
-                .font(.title2)
+//            Text("Made by Magesh Sridhar using SwiftUI ❤️")
+//                .fontWeight(.medium)
+//                .font(.title2)
             HStack(spacing: 20) {
-                VStack(spacing: 20) {
-                    ExpandingHeartView(animatingHeight: $redHeartAnimatingHeight, width: $redHeartWidth, height: $redHeartHeight, color: .red)
-                    .scaleEffect(wiggleAnimate ? 1.03 : 1)
-                        .padding()
-                        .frame(width: 150, height: 150)
-                        .background(.black, in: RoundedRectangle(cornerRadius: 20))
-                    SideGlowHeart(wiggleAnimate: $wiggleAnimate, width: 240, height: 240)
-                        .scaleEffect(0.5)
-                        .clipShape(RoundedRectangle(cornerRadius: 20))
-                        .frame(width: 150, height: 150)
-                        .background(.black, in: RoundedRectangle(cornerRadius: 20))
-                    InnerShadowHeart(wiggleAnimate: $wiggleAnimate, width: 160, height: 240, color: .white)
-                        .scaleEffect(0.5)
-                        .clipShape(RoundedRectangle(cornerRadius: 20))
-                        .frame(width: 150, height: 150)
-                        .background(.black, in: RoundedRectangle(cornerRadius: 20))
-                    HeartPulses(redHeartWidth: 50, blackHeartWidth: 50, expandSizeTo: 200)
-                        .clipShape(RoundedRectangle(cornerRadius: 20))
-                        .frame(width: 150, height: 150)
-                        .background(.black, in: RoundedRectangle(cornerRadius: 20))
-                }
+                // BreakdownView(wiggleAnimate: $wiggleAnimate, redHeartAnimatingHeight: $redHeartAnimatingHeight, redHeartWidth: $redHeartWidth, redHeartHeight: $redHeartHeight)
                 ZStack {
-                    InsideWatch()
+                    Image("watchUltra")
+                        .resizable()
+                        .scaledToFit()
                         .frame(width: deviceWidth/2, height: deviceHeight/1.4)
                     Group {
                         HeartPulses(redHeartWidth: UIScreen.main.bounds.width/9, blackHeartWidth: UIScreen.main.bounds.width/10, expandSizeTo: deviceWidth/3.5)
@@ -61,7 +43,7 @@ struct PrimaryHeartPulse: View {
                 }
                 .frame(maxWidth: deviceWidth/2.5, maxHeight: deviceHeight/1.25)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
-                .background(.black, in: RoundedRectangle(cornerRadius: 30))
+                .background(.black, in: RoundedRectangle(cornerRadius: 35, style: .continuous))
             }
             .padding()
         }

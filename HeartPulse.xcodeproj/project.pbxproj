@@ -11,7 +11,7 @@
 		501611042CA890DA00E0CDB8 /* InnerShadowHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501611032CA890D400E0CDB8 /* InnerShadowHeart.swift */; };
 		501611062CA8927100E0CDB8 /* HeartPulses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501611052CA8926E00E0CDB8 /* HeartPulses.swift */; };
 		501611082CA8930D00E0CDB8 /* watchUltra.png in Resources */ = {isa = PBXBuildFile; fileRef = 501611072CA8930D00E0CDB8 /* watchUltra.png */; };
-		5016110A2CA8963900E0CDB8 /* InsideWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501611092CA8961F00E0CDB8 /* InsideWatch.swift */; };
+		504FC03D2CA922370032E35A /* BreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FC03C2CA922320032E35A /* BreakdownView.swift */; };
 		50F96BDF2C894E84001352C4 /* HeartPulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F96BDE2C894E84001352C4 /* HeartPulseApp.swift */; };
 		50F96BE12C894E84001352C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F96BE02C894E84001352C4 /* ContentView.swift */; };
 		50F96BE32C894E85001352C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F96BE22C894E85001352C4 /* Assets.xcassets */; };
@@ -26,7 +26,7 @@
 		501611032CA890D400E0CDB8 /* InnerShadowHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerShadowHeart.swift; sourceTree = "<group>"; };
 		501611052CA8926E00E0CDB8 /* HeartPulses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartPulses.swift; sourceTree = "<group>"; };
 		501611072CA8930D00E0CDB8 /* watchUltra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watchUltra.png; sourceTree = "<group>"; };
-		501611092CA8961F00E0CDB8 /* InsideWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideWatch.swift; sourceTree = "<group>"; };
+		504FC03C2CA922320032E35A /* BreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownView.swift; sourceTree = "<group>"; };
 		50F96BDB2C894E84001352C4 /* HeartPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F96BDE2C894E84001352C4 /* HeartPulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartPulseApp.swift; sourceTree = "<group>"; };
 		50F96BE02C894E84001352C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		50F96BDD2C894E84001352C4 /* HeartPulse */ = {
 			isa = PBXGroup;
 			children = (
-				501611092CA8961F00E0CDB8 /* InsideWatch.swift */,
+				504FC03C2CA922320032E35A /* BreakdownView.swift */,
 				501611052CA8926E00E0CDB8 /* HeartPulses.swift */,
 				501611032CA890D400E0CDB8 /* InnerShadowHeart.swift */,
 				501611012CA8902800E0CDB8 /* SideGlowHeart.swift */,
@@ -166,10 +166,10 @@
 				501611022CA8902F00E0CDB8 /* SideGlowHeart.swift in Sources */,
 				50F96BF32C8D03D0001352C4 /* ExpandingHearts.swift in Sources */,
 				50F96BF72C8E4C7A001352C4 /* ExpandingHeart.swift in Sources */,
-				5016110A2CA8963900E0CDB8 /* InsideWatch.swift in Sources */,
 				501611062CA8927100E0CDB8 /* HeartPulses.swift in Sources */,
 				501611042CA890DA00E0CDB8 /* InnerShadowHeart.swift in Sources */,
 				50F96BEF2C8A936B001352C4 /* PrimaryHeartPulse.swift in Sources */,
+				504FC03D2CA922370032E35A /* BreakdownView.swift in Sources */,
 				50F96BDF2C894E84001352C4 /* HeartPulseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
