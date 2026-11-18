@@ -1,10 +1,10 @@
 # Heart Rate Animation
-Recreation of the WatchOS heart rate animation from scratch using SwiftUI.
+Recreation of the watchOS heart rate animation from scratch using SwiftUI.
 ### It's all in the details:
-- The center heart not just scales up and down, it wiggles like an actual heart.
+- The center heart doesn't just scale up and down, it wiggles like an actual heart.
 - There's a glow on the leading and trailing edge of the primary heart and the glow flashes when the heart beats.
-- There's a inner shadow in the shape of a compressed heart giving the primary one a 3d illusion effect.
-- The heart pulses coming out doesn't just scale up and fade, they expand in it's path and becomes a cirlce.
+- There's an inner shadow in the shape of a compressed heart giving the primary one a 3d illusion effect.
+- The heart pulses coming out don't just scale up and fade; they expand along their path and become a circle.
 
 ### Things I couldn't recreate from the actual animation:
 - The beating speed of the heart depends on the actual heart rate of the user in the app. Here it's a constant 1 second interval beating.
